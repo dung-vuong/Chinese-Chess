@@ -1,0 +1,45 @@
+.board {
+    box-sizing: content-box;
+    background: url("../../assets/boards/board.svg");
+    background-color: #b35900;
+    border: 3px solid black;
+    height: 700px;
+    width: 700px;
+    display: inline-block;
+}
+
+.square {
+    float: left;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+.side-bar {
+    position: absolute;
+    margin-left: 10px;
+    padding: 5px;
+    display: inline-block;
+    box-sizing: content-box;
+    border: 2px solid black;
+}
+
+.side-bar-side {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.side-bar-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.highlight-square {
+    box-shadow: inset 0 0 3px 3px white;
+}
+
+.highlight-square-move {
+    box-shadow: inset 0 0 3px 3px yellow;
+}
